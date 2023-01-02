@@ -17,7 +17,7 @@ for letter in shemotanili:
   for element in alphabet:
     if element == letter:
       indeqsi = alphabet.index(element)
-      final_result += match[indeqsi]
+      final_result += match[indeqsi] + ":"
       break
   else:
     print("Daviqsirda shecdoma, cade tavidan getayva")
